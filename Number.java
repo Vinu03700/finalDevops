@@ -9,7 +9,12 @@ public class Number{
 
         if (num > 0) {
             System.out.println("The number"+num+" is positive.");
-        } 
+        } if (num < 0) {
+            System.out.println("The number"+num+" is Negative.");
+        } else{
+            System.out.println("The number"+num+" is Zero.");
+        }
+
 
         scanner.close(); 
     }
